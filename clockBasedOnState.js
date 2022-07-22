@@ -9,12 +9,13 @@ class Clock extends React.Component{
         this.timerId = setInterval(()=> this.tick1(),1000);
     }
     componentWillUnmount(){
-        clearInterval(this.timerId);
+        clearInterval(this.timerID);
     }
     tick1() {
         this.setState({
           date: new Date()
         });
+        
       }
     render(){
         return(
@@ -26,10 +27,11 @@ class Clock extends React.Component{
             <li>4. In tick Function we set State again</li>
             </ul>,
             <div>The Time is:</div>,
-            <em>{this.state.date.toLocaleTimeString()}</em>
+            <em>{this.state.date.toLocaleTimeString()}</em>,
             ]);
     }
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Clock/>);
+
+root.render(<Clock count="0"/>);
