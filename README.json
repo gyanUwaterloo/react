@@ -9,7 +9,7 @@ docs = {
             "in Script element use type as text/jsx or txt/babel"
         ],
         "JSX":{
-            "Full form": "Java Script Extension",
+            "Full form": "Java Script XML",
             "What is it?" : "Its a form between html and string, Looks like template but with full js power",
             "React Way":"React separates concerns with loosely coupled units called “components” that contain both logic and markup",
             "Class extends" : "React.Component render : a fuction to return Dom  ",
