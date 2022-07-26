@@ -1,6 +1,6 @@
 docs = {
     "Website": "https://reactjs.org/docs/getting-started.html",
-    "Cocepts" : {
+    "Concepts" : {
         "What is it?": "JavaScript library for building user interfaces.",
         "Easy way to convert html to react?":[
             "https://unpkg.com/react@18/umd/react.development.js",
